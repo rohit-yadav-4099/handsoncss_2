@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+body{
+    background-image: url("css.jpg");
+    background-size: cover;
+    border: 7px groove green;
+    height: 200vh;
+}
+
+.div1{
+    font-style: italic;
+    text-align: center;
+    color: aliceblue;
+}
+
+.wel{
+    border: 4px solid red;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 40%;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.home{
+    background-color: black;
+    border: 4px solid red;
+    border-radius: 25px;
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    height: 5%;
+    width: 25%;
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.contact{
+    border: 4px solid red;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    line-height: 20px;
+    height: 10%;
+    width: 20%;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.circle{
+    background-color: #0a7d7d;
+    border: 5px solid gray;
+    position: absolute;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: larger;
+    border-radius: 50%;
+    padding: 40px 40px;
+    margin-top:300px ;
+    margin-left:200px;
+    text-align: center;
+    line-height: 28px;
+    height: 300px;
+    width: 300px;
+    font-size: large;
+
+}
+
+.form{
+    background-color: aliceblue;
+    border: 5px dashed red;
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    right: 250px;
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+}
+
+.menu{
+    background-color: black;
+    color: white;
+    position: absolute;
+    border-radius: 20px;
+    border: 5px solid red;
+    height: 30px;
+    width: 500px;
+    padding: 5px;
+    top: 875px;
+    right: 400px;
+    text-align: center;
+}
+
+.hr{
+    position: relative;
+    top: 825px;
+}
+.container{
+    display: flex;
+    /* border: 2px solid green; */
+    flex-direction: row;
+    margin: auto;
+    width: 1050px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 850px;
+}
+
+.item{
+    border: 2px solid green;
+    color: #0e0ea7;
+    background-color: #1ed8d8;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
